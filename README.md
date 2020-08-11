@@ -53,11 +53,11 @@ Example Playbook
   tasks:
     - name: Azure Resource Group
       include_role:
-        name: jesperberth.az-resourcegroup
+        name: jesperberth.az_resourcegroup
 
     - name: Azure Virtual Network
       include_role:
-        name: jesperberth.az-virtualnetwork
+        name: jesperberth.az_virtualnetwork
 
 ```
 
