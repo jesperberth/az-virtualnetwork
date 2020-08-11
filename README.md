@@ -44,7 +44,7 @@ Example Playbook
 ```ansible
 ---
 - hosts: localhost
-  name: Deploy Exchange Environment in Azure
+  name: Create Virtualnetwork in Azure
   vars:
     resourcegroup: resourcegroupname
     location: northeurope
@@ -53,11 +53,11 @@ Example Playbook
   tasks:
     - name: Azure Resource Group
       include_role:
-        name: az-resourcegroup
+        name: jesperberth.az-resourcegroup
 
     - name: Azure Virtual Network
       include_role:
-        name: az-virtualnetwork
+        name: jesperberth.az-virtualnetwork
 
 ```
 

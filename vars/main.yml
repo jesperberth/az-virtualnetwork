@@ -1,5 +1,5 @@
 ---
-virtualnetwork_name: ExchangeVnet
+virtualnetwork_name: Vnet
 cidr: 10.0.0.0/16
 subnet_name: Servers
 subnet_cidr: 10.0.0.0/24
