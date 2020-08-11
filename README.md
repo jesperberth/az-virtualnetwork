@@ -1,4 +1,4 @@
-Az-virtualnetnork
+Az_virtualnetwork
 =========
 
 Creates a Virtualnetwork resource in Microsoft Azure with one subnet
