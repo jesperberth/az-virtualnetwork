@@ -1,2 +1,6 @@
 ---
 # defaults file for az-virtualnetwork
+virtualnetwork_name: VirtualNetwork
+cidr: 10.1.0.0/16
+subnet_name: Servers
+subnet_cidr: 10.1.0.0/24
